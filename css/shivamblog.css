@@ -1,0 +1,67 @@
+/*Shivam blog css*/
+
+/*Class for transition*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.nav-pic {
+  /*  
+	border: 2px solid #fff;
+    float: left;
+    margin: 20px; 
+	 box-shadow: 5px 5px 5px #111; 
+	-webkit-box-shadow: 5px 5px 5px #111;	 
+	*/
+     height: 30px;
+    overflow: hidden;
+    width: 30px;
+	
+         
+}
+
+.morph:hover {
+/*  border-radius: 80%; */
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.icon-pic{
+ height: 30px;
+    width: 30px;
+
+}
+
+.dropdown-menu {
+	min-width: 146px;
+}
+
+.dropdown-menu > li > a {
+padding: 3px;
+}
+
+.info-container{
+margin-top: 50px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color : #fff !important;
+	background-color: #333;
+	border-radius : 10px;
+	
+}
+
+
