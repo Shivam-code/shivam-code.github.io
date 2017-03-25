@@ -89,3 +89,17 @@ font-size: 20px;
   min-height: 100%;
   height: 100%;
 }
+.home{
+  height: 500px;
+  padding: 20px;
+text-align: center;
+}
+.home h1{
+ 
+  font-weight: 600;
+  font-size: 88px; 
+  color: #406ebe;
+}
+.home p{
+font-size: 30px;
+}
