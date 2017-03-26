@@ -1,13 +1,14 @@
 	
 	/*** Shivam Code **/
 	.mlogo{
-	border: 3px solid;
-    border-radius: 50%;
-    color: #406ebe;
-    margin-top: 10px;
-    text-align: center;
-    width: 60px;
-    height: 53px !important;
+/**	border: 3px solid;
+    border-radius: 50%; **/
+    font-size: 59px;
+color: #32415c;
+margin-top: 0px;
+text-align: center;
+width: 60px;
+position: fixed;
     }
 
   	/*Class for transition*/
@@ -85,20 +86,20 @@ font-size: 20px;
   text-align: center;
 }
 
-.fil{
-  min-height: 100%;
-  height: 100%;
+.abt{
+  text-align: center;
 }
 .home{
   height: 500px;
   padding: 20px;
 text-align: center;
+  text-transform: uppercase;
 }
 .home h1{
  
   font-weight: 600;
   font-size: 88px; 
-  color: #406ebe;
+  color: #15294d;
 }
 .home p{
 font-size: 30px;
