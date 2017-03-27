@@ -1,146 +1,161 @@
-	
-	/*** Shivam Code **/
-	.mlogo{
-/**	border: 3px solid;
+/*** Shivam Code **/
+.mlogo {
+	/**	border: 3px solid;
     border-radius: 50%; **/
-    font-size: 59px;
-color: #32415c;
-margin-top: 0px;
-text-align: center;
-width: 60px;
-position: fixed;
-    }
-
-  	/*Class for transition*/
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
+	font-size: 59px;
+	color: #32415c;
+	margin-top: 0px;
+	text-align: center;
+	width: 60px;
+	position: fixed;
 }
+
+.navbar-default{
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+.navbar-default a{
+	font-size: 16px;
+}
+/*Class for transition*/	
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 .morph {
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .nav-pic {
-  /*  
+	/*  
 	border: 2px solid #fff;
     float: left;
     margin: 20px; 
 	 box-shadow: 5px 5px 5px #111; 
 	-webkit-box-shadow: 5px 5px 5px #111;	 
 	*/
-     height: 30px;
-    overflow: hidden;
-    width: 30px;
-	
-         
+	height: 30px;
+	overflow: hidden;
+	width: 30px;
 }
 
 .morph:hover {
-/*  border-radius: 80%; */
-  -webkit-transform: rotate(360deg);
-     -moz-transform: rotate(360deg);
-       -o-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
+	/*  border-radius: 80%; */
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
-.icon-pic{
- height: 30px;
-    width: 30px;
-
+.icon-pic {
+	height: 30px;
+	width: 30px;
 }
 
 .dropdown-menu {
 	min-width: 120px !important;
 }
 
-.dropdown-menu > li > a {
-padding: 0px !important;
+.dropdown-menu>li>a {
+	padding: 0px !important;
 }
 
-.info-container{
-margin-top: 50px;
+.info-container {
+	margin-top: 50px;
 }
-
 
 .container-title {
-font-size: 36px;
-text-transform: uppercase;
+	font-size: 36px;
+	text-transform: uppercase;
 }
 
-.skill-list{
-  list-style: none;
+.skill-list {
+	list-style: none;
 }
-.skill-list > li {
+
+.skill-list>li {
 	display: inline-block;
-   border-radius: 5%;
-    color: #ffffff;
-    font-size: 20px;
-    margin: 7px;
-    text-align: center;
-     padding-left: 16px;
-    padding-right: 16px;
-}
- .skill-list > li:nth-child(odd) {
-     background-color: #f0ad4e;
-}
- .skill-list > li:nth-child(even) {
-     background-color: #5cb85c;
+	border-radius: 5%;
+	color: #ffffff;
+	font-size: 20px;
+	margin: 7px;
+	text-align: center;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
-.abt{
-  text-align: center;
-}
-.home{
-  height: 500px;
-  padding: 20px;
-text-align: center;
-  text-transform: uppercase;
-  animation: animatetop 3s;
-
-}
-@keyframes animatetop{from{left:-300px; opacity:0} to{left:0; opacity:1}}
-.home h1{
- 
-  font-weight: 600;
-  font-size: 88px; 
-  color: #15294d;
-  
-}
-.home p{
-font-size: 30px;
+.skill-list>li:nth-child(odd) {
+	background-color: #f0ad4e;
 }
 
-.scroll-page{
-	display:none;
-	 color: red;
-    position: fixed;
-    right: 20px;
-    top: 85%;
-    z-index: 5;
+.skill-list>li:nth-child(even) {
+	background-color: #5cb85c;
 }
 
-.scroll-page img{
+.abt {
+	text-align: center;
+}
+
+.home {
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	animation: animatetop 3s;
+}
+
+@
+keyframes animatetop {
+	from {left: -300px;
+	opacity: 0
+}
+
+to {
+	left: 0;
+	opacity: 1
+}
+
+}
+.home h1 {
+	font-weight: 600;
+	font-size: 88px;
+	color: #15294d;
+}
+
+.home p {
+	font-size: 30px;
+}
+
+.scroll-page {
+	display: none;
+	color: red;
+	position: fixed;
+	right: 20px;
+	top: 85%;
+	z-index: 5;
+}
+
+.scroll-page img {
 	height: 40px;
 	width: 40px;
 }
+
 .scroll-page img:HOVER {
-	-webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 @media only screen and (min-width : 768px) {
-    /* Make Navigation Toggle on Desktop Hover */
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
+	/* Make Navigation Toggle on Desktop Hover */
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
 }
-
-
-
