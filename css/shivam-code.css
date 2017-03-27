@@ -104,3 +104,22 @@ text-align: center;
 .home p{
 font-size: 30px;
 }
+
+.scroll-page{
+	display:none;
+	 color: red;
+    position: fixed;
+    right: 20px;
+    top: 85%;
+    z-index: 5;
+}
+
+.scroll-page img{
+	height: 40px;
+	width: 40px;
+}
+.scroll-page img:HOVER {
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
