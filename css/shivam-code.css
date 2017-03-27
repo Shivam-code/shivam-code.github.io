@@ -10,14 +10,15 @@
 	position: fixed;
 }
 
-.navbar-default{
+.navbar-default {
 	background-color: transparent !important;
 	border-color: transparent !important;
 }
-.navbar-default a{
+
+.navbar-default a {
 	font-size: 16px;
 }
-/*Class for transition*/	
+/*Class for transition*/
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -109,21 +110,20 @@
 	padding: 20px;
 	text-align: center;
 	text-transform: uppercase;
-	animation: animatetop 3s;
 }
 
-@
-keyframes animatetop {
-	from {left: -300px;
-	opacity: 0
+.home-animate { 
+	-webkit-animation: animatezoom 2s;
+	animation: animatezoom 2s;
+	-moz-animation: animatezoom 2s;
+	-o-animation: animatezoom 2s;
 }
 
-to {
-	left: 0;
-	opacity: 1
-}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+@-moz-keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+@-webkit-keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 
-}
+
 .home h1 {
 	font-weight: 600;
 	font-size: 88px;
@@ -132,7 +132,15 @@ to {
 
 .home p {
 	font-size: 30px;
+	-webkit-animation: changeColor 5s infinite; /* Safari 4+ */
+    -moz-animation: changeColor 5s infinite; /* Fx 5+ */
+    -o-animation: changeColor 5s infinite; /* Opera 12+ */
+    animation: changeColor 10s infinite; /* IE 10+ */
 }
+
+@keyframes changeColor{from{color: maroon;} to{color: purple;}}
+@-moz-keyframes changeColor{from{color: maroon;} to{color: purple;}}
+@-webkit-keyframes changeColor{from{color: maroon;} to{color: purple;}}
 
 .scroll-page {
 	display: none;
@@ -140,6 +148,13 @@ to {
 	position: fixed;
 	right: 20px;
 	top: 85%;
+	z-index: 5;
+}
+
+.home-logo {
+	display: none;
+	color: red;
+	position: fixed;
 	z-index: 5;
 }
 
