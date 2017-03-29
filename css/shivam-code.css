@@ -128,12 +128,12 @@
 
 .home h1 {
 	font-weight: 600;
-	font-size: 88px;
+	font-size: 65px;
 	color: #15294d;
 }
 
 .home p {
-	font-size: 30px;
+	font-size: 28px;
 	-webkit-animation: changeColor 5s infinite; /* Safari 4+ */
     -moz-animation: changeColor 5s infinite; /* Fx 5+ */
     -o-animation: changeColor 5s infinite; /* Opera 12+ */
