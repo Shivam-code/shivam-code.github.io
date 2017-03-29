@@ -88,7 +88,7 @@
 	display: inline-block;
 	border-radius: 5%;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 15px;
 	margin: 7px;
 	text-align: center;
 	padding-left: 16px;
@@ -96,11 +96,11 @@
 }
 
 .skill-list>li:nth-child(odd) {
-	background-color: #f0ad4e;
+	background-color: #c29453;
 }
 
 .skill-list>li:nth-child(even) {
-	background-color: #5cb85c;
+	background-color: #299029;
 }
 
 .abt {
@@ -140,6 +140,8 @@
     animation: changeColor 10s infinite; /* IE 10+ */
 }
 
+
+
 @keyframes changeColor{from{color: maroon;} to{color: purple;}}
 @-moz-keyframes changeColor{from{color: maroon;} to{color: purple;}}
 @-webkit-keyframes changeColor{from{color: maroon;} to{color: purple;}}
@@ -147,7 +149,7 @@
 .scroll-page {
 	    color: red;
     position: fixed;
-    right: 20px;
+    right: .4%;
     top: 80%;
     z-index: 5;
 }
@@ -160,8 +162,8 @@
 }
 
 .scroll-page img {
-	height: 40px;
-	width: 40px;
+	height: 35px;
+	width: 35px;
 }
 
 .scroll-page img:HOVER {
@@ -187,4 +189,19 @@
 	color: #ffffff;
 	font-size: 14px;
  }
+}
+/* Media csss for responsive*/
+@media screen and (max-width: 480px) {
+        .home h1 {
+    font-size:48px;
+    }
+	.home p{
+		font-size: 20px;
+	}
+	.skill-list > li {
+		font-size: 16px;
+	}
+	.container-title {
+    font-size: 28px;
+	}
 }
