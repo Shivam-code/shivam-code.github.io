@@ -35,14 +35,6 @@
 }
 
 .nav-pic {
-	/*  
-	border: 2px solid #fff;
-    float: left;
-    margin: 20px; 
-	 box-shadow: 5px 5px 5px #111; 
-	-webkit-box-shadow: 5px 5px 5px #111;	 
-	*/
-	 background-color: #ffffff;
     border-radius: 20%;
     height: 44px;
     overflow: hidden;
@@ -147,7 +139,7 @@
 @-webkit-keyframes changeColor{from{color: maroon;} to{color: purple;}}
 
 .scroll-page {
-	    color: red;
+	color: red;
     position: fixed;
     right: .4%;
     top: 80%;

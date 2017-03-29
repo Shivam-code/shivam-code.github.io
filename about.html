@@ -1,7 +1,48 @@
 <html>
 <head>
+    <style>
+        .cards {
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            line-height: 200px;
+            
+            margin: 20px;
+            transform-style: preserve-3d;
+            transition: all 3sec ease;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+        }
+        .cards:hover {
+            transform: rotateY(180deg);
+        }
+        .cards-container{
+            perspective: 900;
+        }
+        .front , .back {
+            background-color: slategrey; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;  
+            backface-visibility: hidden;
+        }
+        .back {
+            transform: rotateY(180deg);
+        }
+        </style>
 </head>
 <body>
-About
+About cards
+<div class="cards-container">
+<div class="cards">
+    <div class="front"><h2>front</h2></div>
+    <div class="back"><h2>back</h2></div>
+</div>
+</div>
+
 </body>
 </html>
