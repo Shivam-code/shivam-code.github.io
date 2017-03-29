@@ -42,9 +42,11 @@
 	 box-shadow: 5px 5px 5px #111; 
 	-webkit-box-shadow: 5px 5px 5px #111;	 
 	*/
-	height: 30px;
-	overflow: hidden;
-	width: 30px;
+	 background-color: #ffffff;
+    border-radius: 20%;
+    height: 44px;
+    overflow: hidden;
+    width: 44px;
 }
 
 .morph:hover {
@@ -57,8 +59,8 @@
 }
 
 .icon-pic {
-	height: 30px;
-	width: 30px;
+	height: 45px;
+	width: 45px;
 }
 
 .dropdown-menu {
@@ -143,12 +145,11 @@
 @-webkit-keyframes changeColor{from{color: maroon;} to{color: purple;}}
 
 .scroll-page {
-	display: none;
-	color: red;
-	position: fixed;
-	right: 20px;
-	top: 85%;
-	z-index: 5;
+	    color: red;
+    position: fixed;
+    right: 20px;
+    top: 80%;
+    z-index: 5;
 }
 
 .home-logo {
@@ -173,4 +174,17 @@
 	.dropdown:hover .dropdown-menu {
 		display: block;
 	}
+	
+	
+.footerMe {
+		height: 280px;
+		margin-top: 10px;
+		padding: 115px;
+		text-align: center;
+		background-color: #282828 ;
+	}
+	.footerMe p{
+	color: #ffffff;
+	font-size: 14px;
+ }
 }
