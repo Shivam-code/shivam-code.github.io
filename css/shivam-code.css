@@ -171,11 +171,11 @@
 	
 	
 .footerMe {
-		height: 280px;
-		margin-top: 10px;
-		padding: 115px;
-		text-align: center;
-		background-color: #282828 ;
+	height: 230px;
+	margin-top: 5px;
+	padding: 60px;
+	text-align: center;
+	background-color: #161616;
 	}
 	.footerMe p{
 	color: #ffffff;
@@ -196,4 +196,23 @@
 	.container-title {
     font-size: 28px;
 	}
+	.icon-pic {
+		height: 35px;
+		width: 35px;
+	}
+	.nav-pic {
+    border-radius: 20%;
+    height: 35px;
+    overflow: hidden;
+    width: 35px;
+}
+	.footerMe {
+	text-align: center;
+	margin-top: 15px;
+	background-color: black;
+	color: #ffffff;
+	padding: 27px;
+	height: 200px;
+	}
+
 }
