@@ -86,13 +86,13 @@
 	padding-left: 16px;
 	padding-right: 16px;
 }
-
+/**
 .skill-list>li:nth-child(odd) {
 	background-color: #c29453;
 }
 
 .skill-list>li:nth-child(even) {
-	background-color: #299029;
+	background-color: #299029; */
 }
 
 .abt {
