@@ -98,6 +98,9 @@
 .abt {
 	text-align: center;
 }
+#about, #skills{
+	text-align: center;
+}
 
 .home {
 	height: 500px;
